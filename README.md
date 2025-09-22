@@ -5,17 +5,7 @@
 在 claude code，使用 /specify 指令來安裝 Specify 工具。
 
 ```bash
-uvx --from git+https://github.com/github/spec-kit.git specify init "Task Management Platform"
-```
-
-![img.png](img.png)
-![img_1.png](img_1.png)
-![img_2.png](img_2.png)
-
-
-## 2. Establish project principles
-```bash
-/constitution Create principles focused on code quality, testing standards, user experience consistency, and performance requirements
+uvx --from git+https://github.com/github/spec-kit.git specify init "task-management"
 ```
 
 ## 3. Create the spec
